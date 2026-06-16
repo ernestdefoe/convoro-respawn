@@ -1,7 +1,7 @@
 {
   "id": "convoro-respawn",
   "name": "Respawn",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A gaming / esports theme — deep navy-black, neon cyan + magenta, sharp angular corners, JetBrains Mono UI type, subtle CRT scanlines and neon glow. Restyles the whole forum via Convoro's design tokens; light mode becomes a clean blue \"daylight\" variant. Follows your light/dark toggle.",
   "author": "Convoro",
   "convoro": ">=1.39.0",
