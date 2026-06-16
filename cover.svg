@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" fill="none">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="800" y2="400" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2af0ff"/>
+      <stop offset="1" stop-color="#ff3da8"/>
+    </linearGradient>
+    <radialGradient id="c" cx="0.9" cy="0" r="0.6"><stop offset="0" stop-color="#2af0ff" stop-opacity="0.35"/><stop offset="1" stop-color="#2af0ff" stop-opacity="0"/></radialGradient>
+    <radialGradient id="m" cx="0.05" cy="1" r="0.6"><stop offset="0" stop-color="#ff3da8" stop-opacity="0.3"/><stop offset="1" stop-color="#ff3da8" stop-opacity="0"/></radialGradient>
+    <pattern id="scan" width="1" height="3" patternUnits="userSpaceOnUse"><rect width="1" height="1" fill="#ffffff" opacity="0.03"/></pattern>
+  </defs>
+  <rect width="800" height="400" fill="#0b0f14"/>
+  <rect width="800" height="400" fill="url(#c)"/>
+  <rect width="800" height="400" fill="url(#m)"/>
+  <rect width="800" height="400" fill="url(#scan)"/>
+  <!-- chamfered corner -->
+  <path d="M740 0 800 60 800 0Z" fill="#131923"/>
+  <path d="M740 0 800 60" stroke="#243043" stroke-width="1.5"/>
+  <!-- hex mark -->
+  <path d="M120 150 165 176 165 228 120 254 75 228 75 176Z" stroke="url(#g)" stroke-width="3" fill="none"/>
+  <path d="M104 188 142 202 104 216Z" fill="url(#g)"/>
+  <text x="220" y="218" font-family="'JetBrains Mono',monospace" font-size="72" font-weight="800" letter-spacing="2" fill="url(#g)">RESPAWN</text>
+  <text x="222" y="252" font-family="'JetBrains Mono',monospace" font-size="18" font-weight="700" letter-spacing="8" fill="#8ea0bb">GAMING THEME · CONVORO</text>
+</svg>
